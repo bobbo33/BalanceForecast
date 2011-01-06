@@ -1,6 +1,6 @@
 About this spreadsheet:	
 	BalanceForecast.xlsm
-	Version:  1.0  (12/21/2010)
+	Version:  1.1  (1/05/2011)
 	Author:  bobbo33
 	http://lifehacker.com/people/bobbo33
 	
@@ -21,3 +21,8 @@ How it works:
 	Now that your transactions have been entered, you're ready to run the forecast!  Simply click the "Run Forecast!" button, and enter the desired date range for the forecast (it defaults to starting with today's date and forecasting for the next three months).  You'll have one option to set:  whether to include any past due transactions in the current balance or to ignore these transactions (the default is to include them, which adds them to your starting balance).
 	
 	One more note on forecasting:  You're not restricted to starting from today's date!  You can select dates in the past or the future, and the forecast calculation will project in either direction based on the transactions you have scheduled.
+
+Changelog:
+	1.0 Initial Release
+	1.1 Forecast calculates a daily subtotal (rather than simple transaction list)
+	    Update function based off of balance date (rather than today's date)
